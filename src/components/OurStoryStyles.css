@@ -9,8 +9,14 @@
     font-family: roboto slab;
     font-weight: 200;
     line-height: 1.75rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 1.5rem 0;
+}
+
+.our-story-container h2 {
+    font-family: roboto slab;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 .our-story {
@@ -66,14 +72,38 @@ box-shadow: none;
     margin-bottom: 3rem;
 
 }
-.our-story-button a {
+
+
+.button-menu {
+    width: 188px;
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 1rem;
+    background: transparent;
+    border-radius: 100px;
+    border: 3px solid black;
+    color:black;
+    padding: 5px 20px 5px 20px;
+    font-size: 1rem;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .button-menu:hover {
     color: black;
-    
-}
+    background-color: wheat;
+  }
+  
 .our-story-button{
 padding-bottom: 2rem;
-}
+z-index: 1;
 
+}
+/*
 .our-story-title h1 {
     font-size: 2rem; 
     font-family: 'Times New Roman',serif;
@@ -111,7 +141,7 @@ top: 50%;
     
     color: wheat;
     top: 50%;
-}
+}*/
 
 /*.our-story-title h2 {
     font-size: 3rem;
@@ -144,6 +174,7 @@ justify-content: space-between;
 width: 100%;
 margin-top: 4.5rem;
 transition: all .2s ease-in-out; 
+padding: 4rem 4rem;
 
 
 }
@@ -164,9 +195,7 @@ transform: scale(1.05);
    background-image: url('../../assets/back.jpg');
  
    z-index: -100;
-   padding-left: 10px;
-   padding-right: 10px;
-   padding-bottom: 10px;
+   padding: 4rem 4rem;
    border-radius: 6px;
 }
 .second-story:hover {
@@ -177,17 +206,26 @@ transform: scale(1.05);
     text-align: justify;
     font-size: 1.1rem;
 }
-.story-text h2 {
-    padding-bottom: 1rem;
+
+
+.first-story p {
+   color: black
     
 }
+.second-story p {
+    color: wheat
+     
+ }
 
-.story-text p {
-   color: wheat;
-    
+
+ .second-story h2 {
+        font-size: 2rem;
+       color: wheat;
 }
-
-
+.first-story h {
+    font-size: 2rem;
+   color: black;
+}
 
 .image {
     width: 50%;
@@ -196,7 +234,7 @@ transform: scale(1.05);
     justify-content: space-between;
    
    z-index: 1;
-   margin-top: 5rem;
+   
   
 }
 .image img {
@@ -215,14 +253,14 @@ z-index: -10;
     right: 0;
 }
 
-.small-card-cont {
+/*.small-card-cont {
     display: flex;
     padding: 3rem 2rem;
     background-image: 
     url('../../assets/back.jpg');
     justify-content: space-between;
     
-}
+}*/
 
 @media screen and (max-width:850px)
 {

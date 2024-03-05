@@ -12,6 +12,7 @@ return (
 
 <h4>{heading}</h4>
 <p>{text}</p>
+
 </div>
     )
 }

@@ -1,9 +1,9 @@
 import "./SmallCardStyle.css";
 import React from "react";
-import ImgStory5 from "../../assets/60.jpg";
+import ImgStory5 from "../../public/60.jpg";
 
 
-
+ 
 export const SmallCard = () => {
 
     return (

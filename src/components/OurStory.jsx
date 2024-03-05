@@ -8,13 +8,12 @@ import ImgStory7 from "../../assets/38.jpg";
 import ImgStory8 from "../../assets/32.jpg";
 import "./OurStoryStyles.css";
 import { OurStoryData } from "./OurStoryData";
-import { SmallCard } from "./SmallCard";
 import React from "react";
 import imglogo from "../../assets/heading-var-shap.png";
 import ImgStory9 from "../../assets/57.jpg";
 import ImgStory10 from "../../assets/56.jpg";
 import ImgStory11 from "../../assets/55.jpg";
-import parking from "../../assets/parking-svg.svg";
+import { Link } from "react-router-dom";
 
 
 export const OurStory = () => {
@@ -57,23 +56,19 @@ export const OurStory = () => {
                     </div>
                     <div className="our-story-button">
 
-                        <a href="/service" className="button">Kompletan meni</a>
+                    <Link className="button-menu" to="/service">Kompletan meni</Link>
+                    
                     </div>
                 </div>
             </div>
-            <div className="small-card-cont">
-            <SmallCard/>
-            <SmallCard/>
-            <SmallCard/>
-            <SmallCard/>
-            </div>
+           
            
             
 
             <OurStoryData
                 destclass="second-story"
                 title="Igraonica"
-                text="Našim najmlađim gostima na rapolaganju je igraonica, uređena po motivima popularnog crtanog filma Medo i Maša. Igraonica je opremljena raznim sadržajima u kojoj će vaša djeca provoditi vrijeme sa osmijehom i zadovoljstvom. Koriscenje igraonice je besplatno."
+                text="Našim najmlađim gostima na raspolaganju je igraonica, uređena po motivima popularnog crtanog filma Medo i Maša. Igraonica je opremljena raznim sadržajima u kojoj će vaša djeca provoditi vrijeme sa osmijehom i zadovoljstvom. Koriscenje igraonice je besplatno."
                 Img1={ImgStory3}
                 Img2={ImgStory4} />
 

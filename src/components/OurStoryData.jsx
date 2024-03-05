@@ -11,11 +11,14 @@ export const OurStoryData = (props) => {
           <h2>{props.title}</h2>
           <p>{props.text}</p>
           </div>
+          
           <div className="image">
   <img src={props.Img1} alt="img" />
   <img src={props.Img2} alt="img" />
   
           </div>
+     
+         
   
         </div>
     

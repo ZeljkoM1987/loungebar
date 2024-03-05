@@ -7,6 +7,7 @@ import TripImg3 from '../../assets/33.jpg';
 import { PreporukaItems } from "./PreporukaItems";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import delivery from '../../assets/delivery.svg';
+import { Link } from "react-router-dom";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -33,13 +34,14 @@ export const HomeIntro = () => {
           
             image={TripImg1}
             heading="Lounge Bar"
-            text="Nas jedinstveni ambijent predstavlja spoj elegancije i udobnosti, stvarajući savršeno okruženje za uživanje u vrhunskoj gastronomiji. Naša misija je da vam pružimo nezaboravan doživljaj, bilo da dolazite na druženje sa prijateljima, romantičnu večeru, porodični ručak ili poslovni sastanak. Naše ljubazno osoblje je tu da vam pruži vrhunsku uslugu i učini vaš boravak kod nas ugodnim i opuštajućim."
+            text="
+            Prijatan ambijent, neodoljiva gastronomska ponuda i širok izbor pića, samo su dio naše ponude. Lounge bar je savršeno mjesto za sve prilike, bilo da dolazite na druženje sa prijateljima, romantičnu večeru, porodični ručak ili poslovni sastanak. "
           />
           <TripData
           
             image={TripImg3}
             heading="Igraonica"
-            text="Našim najmlađim gostima na rapolaganju je igraonica, uređena po motivima popularnog crtanog filma Medo i Maša. Igraonica je opremljena raznim sadržajima u kojoj će vaša djeca provoditi vrijeme sa osmijehom i zadovoljstvom. Koriscenje igraonice je besplatno"
+            text="Našim najmlađim gostima na raspolaganju je igraonica, uređena po motivima popularnog crtanog filma Medo i Maša. Igraonica je opremljena raznim sadržajima u kojoj će vaša djeca provoditi vrijeme sa osmijehom i zadovoljstvom. "
           />
           <TripData
         
@@ -50,7 +52,8 @@ export const HomeIntro = () => {
         </div>
         <div className="link">
           <h3>više na </h3>
-          <a href="/about" className="button">O nama</a>
+          <Link className="button" to="/about">O nama</Link>
+          
         </div>
       </div>
       <div className="parallax"></div>
@@ -108,8 +111,8 @@ export const HomeIntro = () => {
 
         </Swiper>
         <div className="link">
-
-          <a href="/service" className="button">Kompletan meni</a>
+        <Link className="button" to="/service">Kompletan meni</Link>
+          
 
         </div>
 
