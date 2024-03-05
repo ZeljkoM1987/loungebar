@@ -1,0 +1,271 @@
+
+.our-story-container  {
+    margin: 4rem 0rem;
+    color: rgb(0, 0, 0);
+    z-index: -100;  
+}
+
+.our-story-container p {
+    font-family: roboto slab;
+    font-weight: 200;
+    line-height: 1.75rem;
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.our-story {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.our-story-container img {
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 5px 5px rgb(109, 107, 107);
+}
+
+.our-story-one {
+max-width: 45%;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: auto;
+
+z-index: -1;
+padding: 2rem;
+}
+
+.nasa-prica h2 {
+    font-family: roboto slab;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+
+
+.nasa-prica img {
+height: 15px;
+width: auto;
+box-shadow: none;
+}
+.our-story-img img {
+    width: 48%;
+    height: auto;
+    display: block;
+    box-shadow: 2px 3px 3px rgb(109, 107, 107);
+   
+}
+.our-story-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:1rem;
+    margin-bottom: 3rem;
+
+}
+.our-story-button a {
+    color: black;
+    
+}
+.our-story-button{
+padding-bottom: 2rem;
+}
+
+.our-story-title h1 {
+    font-size: 2rem; 
+    font-family: 'Times New Roman',serif;
+    font-size: 3rem;
+    font-weight: bold;
+    background-image:linear-gradient(to right, #462523 0, #cb9b51 22%, #b7a443 45%, #c2bd7d 50%, #7d6e1c 55%, #cb9b51 78%, #462523 100%);
+    color:transparent;
+    -webkit-background-clip:text;
+    width: 100%;
+    text-align: center;}
+
+.images-praona {
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+.images-praona img {
+    width: 50%;
+    max-height: 360px;
+    object-position: bottom;
+}
+.praona-text {
+    display: block;
+    position: absolute;
+height: auto;
+width: 40%;
+padding: 1.25rem;
+background-image: url('../../assets/back.jpg');
+margin: auto;
+text-align: center;
+top: 50%;
+
+}
+.praona-text p {
+    
+    color: wheat;
+    top: 50%;
+}
+
+/*.our-story-title h2 {
+    font-size: 3rem;
+    font-family: Great Vibes; 
+    font-weight: 300;
+    font-size: 3rem;
+    font-weight: bold;
+    background-image: linear-gradient(
+     to right,
+     #462523 0,
+            #cb9b51 22%, 
+     #f6e27a 45%,
+     #f6f2c0 50%,
+     #f6e27a 55%,
+     #cb9b51 78%,
+     #462523 100%
+     );
+    color:transparent;
+    -webkit-background-clip:text;
+    width: 100%;
+    text-align: center;
+
+}
+
+*/
+.first-story {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+margin-top: 4.5rem;
+transition: all .2s ease-in-out; 
+
+
+}
+
+.first-story:hover {
+transform: scale(1.05);
+
+
+}
+.second-story {
+    display: flex;
+    flex-direction: row-reverse;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 4.5rem;
+   width: 100%;
+   transition: all .2s ease-in-out; 
+   background-image: url('../../assets/back.jpg');
+ 
+   z-index: -100;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   border-radius: 6px;
+}
+.second-story:hover {
+    transform: scale(1.05);
+}
+.story-text {
+    width: 45%;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+.story-text h2 {
+    padding-bottom: 1rem;
+    
+}
+
+.story-text p {
+   color: wheat;
+    
+}
+
+
+
+.image {
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+   
+   z-index: 1;
+   margin-top: 5rem;
+  
+}
+.image img {
+width: 49%;
+height: 276px;
+object-fit: cover;
+border-radius: 6px;
+box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+z-index: -10;
+
+}
+
+.image img:nth-child(2) {
+    position:absolute;
+    top:-10%;
+    right: 0;
+}
+
+.small-card-cont {
+    display: flex;
+    padding: 3rem 2rem;
+    background-image: 
+    url('../../assets/back.jpg');
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width:850px)
+{
+.our-story-container {
+    margin:4rem 2rem;
+}
+
+.our-story {
+    flex-direction: column;
+    width: 100%;
+}
+
+.our-story-one {
+
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.our-story-img img {
+    width: 100%;
+}
+
+.first-story, .second-story {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 2.5rem;
+   width: 100%;
+}
+.story-text {
+    width: 100%;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.story-text  h2 {
+    text-align: center;
+}
+.image {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+
+}

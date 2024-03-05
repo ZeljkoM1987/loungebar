@@ -1,0 +1,48 @@
+.container-footer {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2a2a2a;
+    color: wheat;
+    font-family: Great Vibes;
+    align-items: start;
+    margin-top: 1rem;
+}
+
+h4 {
+    font-size: 1rem;
+   
+    font-weight: 100;
+    
+letter-spacing: 0.1rem;}
+
+.social {
+    background-color: #2a2a2a;
+    text-align: center;
+    color: wheat;
+ display: flex;
+ justify-content: center;
+    gap: 2rem;
+    padding:0.5rem ;
+}
+
+.social i {
+font-size: 2rem;
+color: wheat;
+
+}
+
+@media screen and (max-width:750px)
+{
+
+    .container-footer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
