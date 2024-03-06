@@ -1,5 +1,5 @@
 import ImgStory1 from "../../assets/37.jpg";
-import ImgStory2 from "../../assets/31.jpg";
+import ImgStory2 from "../../assets/15.jpg";
 import ImgStory3 from "../../assets/33.jpg";
 import ImgStory4 from "../../assets/34.jpg";
 import ImgStory5 from "../../assets/35.jpg";
