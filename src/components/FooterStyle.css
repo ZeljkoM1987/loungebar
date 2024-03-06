@@ -39,6 +39,8 @@ color: wheat;
     .container-footer {
         flex-direction: column;
         padding: 1rem;
+        justify-content: space-between;
+        gap: 1rem;
     }
 }
 
