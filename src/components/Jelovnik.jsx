@@ -47,7 +47,7 @@ export const Jelovnik = [
         title: "Piletina Formaggio",
         url: "../../assets/menu/piletinaubesamelsosu.jpg",
         text: "senzacionalna piletina s četiri vrste sira i hrskavim domaćim krompirom",
-        price: "15KM",
+        price: "16KM",
         sort: "Glavno Jelo"
     },
     {
