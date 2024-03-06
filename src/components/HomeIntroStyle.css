@@ -90,8 +90,13 @@ align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  transform-style: preserve-3d;
 }
 
+.intro-text {
+  perspective: 2px;
+  -webkit-perspective: 2px;
+}
 
 .swiper {
   width: 100%;
