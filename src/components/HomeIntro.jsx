@@ -4,6 +4,7 @@ import { TripData } from "./TripData";
 import TripImg1 from '../../assets/16.jpg';
 import TripImg2 from '../../assets/36.jpg';
 import TripImg3 from '../../assets/33.jpg';
+
 import { PreporukaItems } from "./PreporukaItems";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import delivery from '../../assets/delivery.svg';
@@ -56,7 +57,9 @@ export const HomeIntro = () => {
           
         </div>
       </div>
-      <div className="parallax"></div>
+      <div className="parallax">
+
+      </div>
       <div className="intro-text">
         <h2>Sa ponosom vam predstavljamo našu raskošnu selekciju jela, pripremljenih sa strašću i pažnjom, kako biste uživali u svakom trenutku provedenom za stolom.</h2>
       </div>
