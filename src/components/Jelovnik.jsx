@@ -132,7 +132,7 @@ export const Jelovnik = [
         title: "Piza Piroska",
         url: "/menu/picapiroska.jpg",
         text: "pelat, sir, sunka i sampinjoni",
-        price: "15KM",
+        price: "16KM",
         sort: "Piza"
     }
 
