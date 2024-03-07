@@ -21,13 +21,13 @@ export const Contact = () => {
 
 <ParallaxProvider>
 
-    <Parallax speed={-100}>
+    <Parallax translateY={[0, -70]}>
       <div className="slow" >
         <img src={ContactImg} alt="" />
       
       </div>
     </Parallax>
-    <Parallax speed={10}>
+    <Parallax translateY={[-30, -50]}>
       <div className="fast" />
     </Parallax>
 
