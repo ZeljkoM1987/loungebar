@@ -23,3 +23,15 @@ align-items: center;
 justify-content: space-around;
 
 }
+
+.text-contact {
+  height: 1000px;
+}
+.co {
+  min-height:  1000px;
+
+}
+.test {
+  height: 100px;
+  background-color: aqua;
+}
