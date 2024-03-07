@@ -5,7 +5,6 @@ import TripImg1 from '../../assets/16.jpg';
 import TripImg2 from '../../assets/36.jpg';
 import TripImg3 from '../../assets/33.jpg';
 import par from '../../assets/52jpg.jpg';
-import { Parallax } from "react-parallax";
 import { PreporukaItems } from "./PreporukaItems";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import delivery from '../../assets/delivery.svg';
@@ -58,18 +57,14 @@ export const HomeIntro = () => {
           
         </div>
       </div>
-      <Parallax strength={800}>
       
-<div className="contentpar"></div>
 
-    </Parallax>
-     
-    <Parallax strength={800} >
+   
       
       <div className="intro-text">
               <h2>Sa ponosom vam predstavljamo našu raskošnu selekciju jela, pripremljenih sa strašću i pažnjom, kako biste uživali u svakom trenutku provedenom za stolom.</h2>
             </div>
-          </Parallax>
+          
     
 
      

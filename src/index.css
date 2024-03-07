@@ -26,13 +26,25 @@ justify-content: space-around;
 
 .text-contact {
   height: 1000px;
+  
 }
 .co {
   min-height:  1000px;
   transform: translateZ(100px);
+  background-image: url("../../assets/52jpg.jpg");
 
 }
-.test {
-  height: 100px;
-  background-color: aqua;
+.slow {
+  
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.fast {
+  height: 1000px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:blue;
 }
