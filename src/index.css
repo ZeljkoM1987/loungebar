@@ -34,13 +34,7 @@ justify-content: space-around;
   background-image: url("../../assets/52jpg.jpg");
 
 }
-.slow {
-  
-display: flex;
-justify-content: center;
-align-items: center;
 
-}
 .fast {
   height: 1000px;
 display: flex;

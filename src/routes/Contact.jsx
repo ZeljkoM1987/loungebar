@@ -1,7 +1,7 @@
 import { Navbar } from "../components/Navbar";
 import {Hero} from '../components/Hero';
 import ContactImg from '../../assets/18.jpg';
-import { useParallax, Parallax, ParallaxProvider  } from 'react-scroll-parallax';
+import { Parallax, ParallaxProvider  } from 'react-scroll-parallax';
 
 
 
@@ -27,7 +27,7 @@ export const Contact = () => {
       
       </div>
     </Parallax>
-    <Parallax translateY={[-30, -50]}>
+    <Parallax translateY={[-30, -60]}>
       <div className="fast" />
     </Parallax>
 

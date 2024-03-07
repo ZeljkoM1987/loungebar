@@ -45,10 +45,7 @@ align-items: center;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
-.intro-text {
-  background-color: white;
-  position: relative;
-}
+
 
 .link {
   margin-top: 5rem;
@@ -82,9 +79,15 @@ align-items: center;
   background-color: wheat;
 }
 
-.content-par {
-  min-height: 500px;
-  background-color: aqua;
+.slow {
+  width: 100%;
+  
+}
+.intro-text {
+  background-color: white;
+  position: relative;
+  
+  
 
 }
 

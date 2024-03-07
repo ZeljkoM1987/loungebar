@@ -1,4 +1,3 @@
-
 import "./HomeIntroStyle.css";
 import { TripData } from "./TripData";
 import TripImg1 from '../../assets/16.jpg';
@@ -9,6 +8,7 @@ import { PreporukaItems } from "./PreporukaItems";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import delivery from '../../assets/delivery.svg';
 import { Link } from "react-router-dom";
+import { Parallax, ParallaxProvider  } from 'react-scroll-parallax';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -59,11 +59,24 @@ export const HomeIntro = () => {
       </div>
       
 
-   
-      
-      <div className="intro-text">
+      <ParallaxProvider>
+
+<Parallax translateY={[0, -70]}>
+  <div className="slow" >
+    <img src={par} alt="" />
+  
+  </div>
+</Parallax>
+<Parallax translateY={[-70, -60]}>
+<div className="intro-text">
               <h2>Sa ponosom vam predstavljamo našu raskošnu selekciju jela, pripremljenih sa strašću i pažnjom, kako biste uživali u svakom trenutku provedenom za stolom.</h2>
             </div>
+</Parallax>
+
+</ParallaxProvider>
+   
+      
+      
           
     
 
