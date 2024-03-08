@@ -3,7 +3,7 @@ import { Navbar } from "../components/Navbar";
 import { Hero } from '../components/Hero';
 
 import {HomeIntro} from "../components/HomeIntro"
-
+import {HomeIntro2} from "../components/HomeIntro2"
 
 
 export const Home = () => {
@@ -14,7 +14,7 @@ export const Home = () => {
 
 
             <Hero />
-            <HomeIntro/>
+            <HomeIntro2/>
             
 
         </>
