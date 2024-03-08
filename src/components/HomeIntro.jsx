@@ -3,12 +3,12 @@ import { TripData } from "./TripData";
 import TripImg1 from '../../assets/16.jpg';
 import TripImg2 from '../../assets/36.jpg';
 import TripImg3 from '../../assets/33.jpg';
-import par from '../../assets/52jpg.jpg';
+import par from '../../assets/57.jpg';
 import { PreporukaItems } from "./PreporukaItems";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import delivery from '../../assets/delivery.svg';
 import { Link } from "react-router-dom";
-import { Parallax, ParallaxProvider  } from 'react-scroll-parallax';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -57,21 +57,18 @@ export const HomeIntro = () => {
           
         </div>
       </div>
-      
-
+      <div className="slow" >
+   <img src={par} alt="" />
+    </div>
       <ParallaxProvider>
 
-<Parallax translateY={[0, -70]}>
-  <div className="slow" >
-    <img src={par} alt="" />
-  
-  </div>
-</Parallax>
-<Parallax translateY={[-70, -60]}>
+
+ <Parallax translateY={[-72, 30]}>
 <div className="intro-text">
               <h2>Sa ponosom vam predstavljamo našu raskošnu selekciju jela, pripremljenih sa strašću i pažnjom, kako biste uživali u svakom trenutku provedenom za stolom.</h2>
             </div>
 </Parallax>
+  
 
 </ParallaxProvider>
    
@@ -81,7 +78,7 @@ export const HomeIntro = () => {
     
 
      
-      <div className="section-o-nama">
+     <div className="section-o-nama">
         <div className="preporuka">
           <h2>Preporuka šefa kuhinje</h2>
         </div>
@@ -139,7 +136,7 @@ export const HomeIntro = () => {
 
         </div>
      
-
+          *
       <div className="dostava">
         <img src={delivery} alt="dostava" />
 
