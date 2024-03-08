@@ -10,7 +10,7 @@ export const MenuItems = [
         title: "O nama",
         url: "/about",
         cname: "nav-links",
-        icon: "fa fa-circle"
+        icon: "fa-solid fa-face-grin-wink"
     },
     {
         title: "Meni",
