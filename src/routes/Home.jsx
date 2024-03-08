@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../components/Navbar";
+
 import { Hero } from '../components/Hero';
 
 import {HomeIntro} from "../components/HomeIntro"
@@ -14,7 +14,7 @@ export const Home = () => {
 
 
             <Hero />
-            <HomeIntro2/>
+            <HomeIntro/>
             
 
         </>

@@ -100,26 +100,22 @@ height: 100vh!important;
 
 }
 
- /*.parallax {
+ .parallax {
   
 
   background-image: url('../../assets/52jpg.jpg');
 
   min-height: 500px;
-
+  background-position: center;
 
   background-attachment: fixed;
-  background-position: center;
+  
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
-  transform-style: preserve-3d;
 }
-*/
-.intro-text {
-  perspective: 2px;
-  -webkit-perspective: 2px;
-}
+
+
+
 
 .swiper {
   width: 100%;
@@ -238,12 +234,20 @@ height: 100vh!important;
     margin-bottom: 1rem;
   }
 
-  .slow img{
-
   
- 
-    object-fit: cover;
-
+  .parallax {
   
+
+    background-image: url('../../assets/52jpg.jpg');
+  
+   
+    background-position: center;
+  
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+  
+  
 }
