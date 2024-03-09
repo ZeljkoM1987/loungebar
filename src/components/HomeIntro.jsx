@@ -1,5 +1,6 @@
 import "./HomeIntroStyle.css";
-import { TripData } from "./TripData";
+
+import { CardTest } from "./CardTest";
 import TripImg1 from '../../assets/16.jpg';
 import TripImg2 from '../../assets/36.jpg';
 import TripImg3 from '../../assets/33.jpg';
@@ -31,28 +32,27 @@ export const HomeIntro = () => {
       </div>
       <div className="section-o-nama">
         <div className="t-cards">
-          <TripData
+          <CardTest
           
             image={TripImg1}
-            heading="Lounge Bar"
-            text="
-            Prijatan ambijent, neodoljiva gastronomska ponuda i širok izbor pića, samo su dio naše ponude. Lounge bar je savršeno mjesto za sve prilike, bilo da dolazite na druženje sa prijateljima, romantičnu večeru, porodični ručak ili poslovni sastanak. "
+            title="Lounge Bar"
+            text="Prijatan ambijent, neodoljiva gastronomska ponuda i širok izbor pića, samo su dio naše ponude. Lounge bar je savršeno mjesto za sve prilike, bilo da dolazite na druženje sa prijateljima, romantičnu večeru, porodični ručak ili poslovni sastanak. "
           />
-          <TripData
+          <CardTest
           
             image={TripImg3}
-            heading="Igraonica"
+            title="Igraonica"
             text="Našim najmlađim gostima na raspolaganju je igraonica, uređena po motivima popularnog crtanog filma Medo i Maša. Igraonica je opremljena raznim sadržajima u kojoj će vaša djeca provoditi vrijeme sa osmijehom i zadovoljstvom. "
           />
-          <TripData
+          <CardTest
         
             image={TripImg2}
-            heading="Autopraona"
+            title="Autopraona"
             text="Bilo da se radi o osnovnom pranju, dubinskom čišćenju enterijera ili detaljnom poliranju, mi smo tu da udovoljimo vašim potrebama."
           />
         </div>
         <div className="link">
-          <h3>više na </h3>
+          
           <Link className="button" to="/about">O nama</Link>
           
         </div>
