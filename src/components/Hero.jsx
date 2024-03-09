@@ -62,7 +62,7 @@ export const  Hero = () => {
             <h2>Dobro došli!</h2>
             
             </div>
-            <p className="etc"> ETC 2018</p>
+            <p className="etc"> ETC 2016</p>
          </SwiperSlide>
         <SwiperSlide>
         <img src={ImgHero2} alt="heroimg" />

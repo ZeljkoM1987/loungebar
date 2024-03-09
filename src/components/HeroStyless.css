@@ -120,3 +120,11 @@ img {
       
 }
 
+@media screen and (max-width:1080px) {
+  .text-hero h2 {
+    font-size: 2.5rem;}
+
+    .text-hero h1 {
+      font-size: 4rem;
+      
+}}

@@ -26,7 +26,7 @@ export const HomeIntro = () => {
     <>
       <div className="intro-text">
         <h2>
-          Dobrodošli u naš restoran, gde se svaki zalogaj pretvara u nezaboravno
+          Dobrodošli u naš lounge bar, gde se svaki zalogaj pretvara u nezaboravno
           iskustvo, a svaka večer postaje posebna priča.
         </h2>
       </div>
