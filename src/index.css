@@ -15,6 +15,17 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+
+
+}
+
 .gallery-container {
 display: flex;
 flex-direction: row;
@@ -42,3 +53,12 @@ justify-content: center;
 align-items: center;
 background-color:blue;
 }
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+ 
+}
+

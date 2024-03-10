@@ -35,7 +35,7 @@ img {
    object-fit: cover;
    position: relative;
    z-index: -200;
-   filter: brightness(70%);
+   filter: brightness(50%);
 
 }
 
@@ -76,16 +76,15 @@ img {
 
 .text-hero {
     position: absolute;
-    top: 34%;
+    
     text-align: center;
     width: 100%;
-    
-  
 
 }
 
+
 .text-hero h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 100;
     
    /* background: #ffffff;
@@ -98,7 +97,7 @@ img {
 }
 
 .text-hero h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 100;
     
    /* background: #ffffff;
@@ -120,3 +119,18 @@ img {
       
 }
 
+/*DESKTOP VIEW*/
+@media (min-width: 800px) {
+  .text-hero {
+
+    top: 34%;
+
+}
+.text-hero h1 {
+  font-size: 5rem;
+}
+.text-hero h2 {
+  font-size: 3rem;
+}
+
+}
