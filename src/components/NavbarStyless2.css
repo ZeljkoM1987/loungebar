@@ -37,14 +37,14 @@
 
 .Navbar2-logo h2 {
     font-size: 0.75rem;
-   
+    font-family: Roboto Slab;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .Navbar2-logo h1 {
     font-size: 1.25rem;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-    
+    font-family: Roboto Slab;
 }
 
 .nav2-menu {
@@ -132,12 +132,8 @@
         width: 100%;
         height: auto;
         align-items: stretch;
-        background: rgba(255, 255, 255, 0.73);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(13.8px);
--webkit-backdrop-filter: blur(13.8px);
-border: 1px solid rgba(255, 255, 255, 0.71);
+        background: whitesmoke;
+        
         position: absolute;
         top: 0;
         left: 100%;
