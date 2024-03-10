@@ -18,8 +18,11 @@ export const Footer = () => {
                 <div className="adresa">
 
                     <h2>Radno vrijeme</h2>
-                    <h4>Nedelja-Čevrtak: 06-00h </h4>
-                    <h4>Petak-Subota: 06h-01h</h4>
+                    <h4>Lounge bar: </h4>
+                    <h4>svaki dan: 06-00h </h4>
+                    <h4>Autopraona: </h4>
+                    <h4>ponedeljak-subota: 08-20h </h4>
+                    <h4>nedelja: 08h-16h</h4>
 
                 </div>
                 <div className="kontakt">

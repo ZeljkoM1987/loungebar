@@ -119,18 +119,3 @@ img {
       
 }
 
-/*DESKTOP VIEW*/
-@media (min-width: 800px) {
-  .text-hero {
-
-    top: 34%;
-
-}
-.text-hero h1 {
-  font-size: 5rem;
-}
-.text-hero h2 {
-  font-size: 3rem;
-}
-
-}

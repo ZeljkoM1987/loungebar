@@ -26,7 +26,7 @@ align-items: center;
 
 .t-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   padding-left: 1rem;

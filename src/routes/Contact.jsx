@@ -1,5 +1,5 @@
 import { Navbar } from "../components/Navbar";
-import {Hero} from '../components/Hero';
+import {CardTest} from '../components/CardTest';
 import ContactImg from '../../assets/18.jpg';
 
 
@@ -12,11 +12,13 @@ export const Contact = () => {
     return (
       <>
 
+<CardTest/>
 </>
 )
   
 }
-    {/* <Hero
+    {
+      /* <Hero
          cName= "heromid"
          heroImg= {ContactImg}
          title = "Contact"
