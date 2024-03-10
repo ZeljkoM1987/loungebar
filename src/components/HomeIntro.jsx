@@ -53,7 +53,7 @@ export const HomeIntro = () => {
         </div>
         <div className="link">
           
-          <Link className="button" to="/about">O nama</Link>
+          <Link className="button" to="/about">Više O nama</Link>
           
         </div>
         

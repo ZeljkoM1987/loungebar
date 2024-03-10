@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 const LoungeContext = React.createContext();
 
@@ -7,18 +7,6 @@ const LoungeContext = React.createContext();
 const LoungeProvider = ({ children }) => {
   const [size, setSize] = React.useState(null);
   const [height, setHeight] = React.useState(null);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
-  const showSidebar = () => {
-    setIsSidebarOpen(true);
-  };
-  const hideSidebar = () => {
-    setIsSidebarOpen(false);
-  };
-
-  const toggleSidebar=()=>{
-    setIsSidebarOpen(!isSidebarOpen);
-  }
 
   useEffect(() => {
     if (window) {
@@ -33,18 +21,14 @@ const LoungeProvider = ({ children }) => {
       });
     }
     return () => {
-       window.removeEventListener("resize", () => {});
-       window.removeEventListener("scroll", () => {});
+      window.removeEventListener("resize", () => {});
+      window.removeEventListener("scroll", () => {});
     };
   }, []);
 
   return (
     <LoungeContext.Provider
       value={{
-        isSidebarOpen,
-        showSidebar,
-        hideSidebar,
-        toggleSidebar,
         size,
         height,
       }}
