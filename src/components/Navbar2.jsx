@@ -3,6 +3,7 @@ import { MenuItems } from "./MenuItems";
 import "./NavbarStyless2.css";
 import { NavLink } from "react-router-dom";
 import { LoungeContext } from "../context/context";
+import logo from "../logo.svg"
 
 export const Navbar2 = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +17,8 @@ export const Navbar2 = () => {
         className="Navbar2-logo"
         style={{ color:menuOpen || height > 100 ? "black" : "whitesmoke" }}
       >
-        <i className="fa-sharp fa-solid fa-utensils logo2"></i>
+        <img src={logo} className="logo2"></img>
+       {/*<i className="fa-sharp fa-solid fa-utensils logo2"></i>*/}
         <div>
           <h2>Lounge Bar</h2>
           <h1>Centar</h1>

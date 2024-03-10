@@ -16,6 +16,7 @@ import { Navbar2 } from "./components/Navbar2";
 import { Footer } from "./components/Footer";
 
 function App() {
+ 
   return (
     <>
       <LoungeProvider>

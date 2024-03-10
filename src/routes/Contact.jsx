@@ -1,24 +1,20 @@
-import { Navbar } from "../components/Navbar";
-import {CardTest} from '../components/CardTest';
-import ContactImg from '../../assets/18.jpg';
-
-
-
-
+import { useEffect } from "react";
+import { CardTest } from "../components/CardTest";
+import ContactImg from "../../assets/18.jpg";
 
 export const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-
-    return (
-      <>
-
-<CardTest/>
-</>
-)
-  
-}
-    {
-      /* <Hero
+  return (
+    <>
+      <CardTest />
+    </>
+  );
+};
+{
+  /* <Hero
          cName= "heromid"
          heroImg= {ContactImg}
          title = "Contact"
@@ -31,5 +27,4 @@ export const Contact = () => {
         <Navbar />
     </> 
   */
- }
-   
+}
