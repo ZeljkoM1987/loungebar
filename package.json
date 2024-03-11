@@ -15,7 +15,8 @@
     "react-parallax": "^3.5.1",
     "react-router-dom": "^6.22.0",
     "react-scroll-parallax": "^3.4.5",
-    "swiper": "^11.0.6"
+    "swiper": "^11.0.6",
+    "yet-another-react-lightbox": "^3.17.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

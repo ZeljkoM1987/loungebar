@@ -1,21 +1,34 @@
-import { Navbar } from "../components/Navbar";
-import { GalleryItems } from "../components/GalleryItems";
-import { TripData } from "../components/TripData";
+import React, { useState } from "react";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import { HeroOther } from "../components/HeroOther";
+import AboutImg from '../../assets/26.jpg';
+import { Images } from "../components/Images.jsx";
+import { slides } from "../components/data.jsx"
 
-export const Gallery = () => { return (
-        <>      
-           
-            <div className="gallery-container">
-                {GalleryItems.map((item, key) => 
-                
-                <TripData
-                    key={key}
-                    image={item.url}
-                    heading={item.title}
-                    text={item.text} 
-                />)}
+export const Gallery = () => {
 
-                </div>
-        </>
-    )
+  const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(-1);
+  return (
+    <>
+
+
+      <HeroOther
+        heroImg={AboutImg}
+        title="galerija" />
+
+      
+
+    
+
+      <Images data={slides} onClick={(currentIndex) => { setIndex(currentIndex)}} />
+      <Lightbox
+      index={index}
+        open={index>=0}
+        close={() => setIndex(-1)}
+        slides={slides}
+      />
+    </>
+  );
 } 
