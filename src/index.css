@@ -10,9 +10,22 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
   }
+  :root {
+    --swiper-theme-color: whitesmoke;
+}
 
 .App {
   text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  letter-spacing: 0;
+
+
 }
 
 .gallery-container {
@@ -43,6 +56,17 @@ align-items: center;
 background-color:blue;
 }
 
+<<<<<<< HEAD
 .lightbox-button {
   z-index: 10;
 }
+=======
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+ 
+}
+
+>>>>>>> d872854a0b445291dd6a4764ad98942c6ae9d3d3

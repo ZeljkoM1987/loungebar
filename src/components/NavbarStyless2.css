@@ -1,4 +1,4 @@
-.NavBarItems {
+.NavBarItems2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,15 +12,13 @@
     left: 50%;
     transform: translate(-50%);
     top: 20px;
-    z-index: 10;
+    z-index: 1000;
     opacity: 80%;
-
-
-
+    transition: all 0.3s linear;
 }
 
 
-.Navbar-logo {
+.Navbar2-logo {
     cursor: pointer;
     text-align: center;
     display: flex;
@@ -28,31 +26,28 @@
     justify-content: center;
     align-items: center;
     font-family: Forte;
+    
 }
-.logo{
-    font-size: 2.5rem;
-    color: white;
-    margin-right: 0.5rem;
-}
-
-.Navbar-logo h2 {
-    font-size: 0.9rem;
-    color: white;
-    text-shadow: 10px rgba(0, 0, 0, 0.25);
-    font-family: 'Forte', sans-serif;
-    font-weight: 100;
-
+.logo2{
+    object-fit: contain;
+   width: 80px;
+   height: 60px;
+   z-index: inherit;
 }
 
-.Navbar-logo h1 {
-    font-size: 1.5rem;
-    color: white;
-    text-shadow: 10px rgba(0, 0, 0, 0.25);
-    font-family: 'Forte', sans-serif;
-
+.Navbar2-logo h2 {
+    font-size: 0.75rem;
+    font-family: Roboto Slab;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-.nav-menu {
+.Navbar2-logo h1 {
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    font-family: Roboto Slab;
+}
+
+.nav2-menu {
     display: grid;
     grid-template-columns: repeat(7, auto);
     grid-gap: 10px;
@@ -62,34 +57,34 @@
 }
 
 
-.nav-links {
-    color: white;
+.nav2-links {
+    
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 400;
     padding: 0.7rem 1rem;
     white-space: nowrap;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s linear;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-.nav-links:hover {
+.nav2-links:hover {
     background-color: #19423E;
-    color: #fff;
     border-radius: 4px;
-    transition: all 0.3s ease-in-out;
-
+    transition: all 0.3s linear;
+    color: wheat!important;
 
 }
 
-.nav-links i {
+.nav2-links i {
     padding-right: 10px;
 }
 
-.nav-links-mobile {
+.nav2-links-mobile {
     display: none;
 }
 
-.nav-tel {
+.nav2-tel {
     padding: 0.5rem 1rem;
     white-space: nowrap;
     border-radius: 0.3rem;
@@ -107,34 +102,38 @@
 
 
 
-.nav-tel:hover {
+.nav2-tel:hover {
     background-color: #151516;
     color: white;
 }
 
-.menu-icons {
+.menu2-icons {
     display: none;
 }
 
-.close{
+.close2{
     color: #333 !important;
 }
+.active2 i{
+    color: wheat;
+}
 
-
+/*FOR MOBILE VIEW*/
 @media screen and (max-width:1080px) {
 
-    .NavBarItems {
+    .NavBarItems2 {
         opacity: 100;
     }
 
-    .nav-menu {
+    .nav2-menu {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
         height: auto;
         align-items: stretch;
-        background: white;
+        background: whitesmoke;
+        
         position: absolute;
         top: 0;
         left: 100%;
@@ -147,50 +146,62 @@
 
     }
 
-    .nav-menu.active {
+    .nav2-menu.active {
         left: 0;
         opacity: 100;
         z-index: -100;
         transition: 200ms ease;
+        border-radius: 13px;
     }
 
-    .nav-links {
+    .nav2-links {
         display: block;
         font-size: 1.5rem;
         width: 100%;
-        padding: 2rem 0rem;
-        color: #333;
+        padding: 1.5rem 0rem;
+        color: #333!important;
        
     }
-
-    .nav-links:hover {
-        background-color: #19423E;
-        transition: none;
+    .fix{
+        text-indent: -20px;
+    }
+    .nav2-links i{
+        font-size: 1.8rem;
     }
 
+    .nav2-links:hover {
+        background-color: #19423E;
+        transition: none;
+        color: wheat!important;
+    }
+    .nav2-links:hover i{
+        color: wheat;
+    }
+    
 
-    .nav-tel {
+
+    .nav2-tel {
         display: block;
         text-decoration: none;
-        color: #fff;
+        color: #333;
         font-size: 1.2rem;
         font-weight: 700;
         padding: 1rem;
-        border-radius: 4px;
+        border-radius: 13px;
         width: 80%;
         margin: auto;
         text-align: center;
         letter-spacing: 2px;
         opacity: 100%;
-        background-color: #19423E;
+        background-color: c;
     }
 
-    .menu-icons {
+    .menu2-icons {
         display: block;
         
     }
 
-    .menu-icons i {
+    .menu2-icons i {
         font-size: 2.2rem;
         color: white;
         cursor: pointer;
