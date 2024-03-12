@@ -30,21 +30,25 @@
 }
 .logo2{
     object-fit: contain;
-   width: 80px;
-   height: 60px;
+   width: 40px;
+   height: 40px;
    z-index: inherit;
+   margin-right: 4px;
 }
 
 .Navbar2-logo h2 {
-    font-size: 0.75rem;
-    font-family: Roboto Slab;
+    font-size: 0.9rem;
+    font-family: 'Forte', sans-serif;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    font-weight: 100;
 }
 
 .Navbar2-logo h1 {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-    font-family: Roboto Slab;
+    font-family: 'Forte', sans-serif;
+    font-weight: 100;
+
 }
 
 .nav2-menu {

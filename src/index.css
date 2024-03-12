@@ -28,7 +28,7 @@ body {
 
 }
 
-.gallery-container {
+/* .gallery-container {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -53,14 +53,12 @@ justify-content: space-around;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color:blue;
-}
+background-color:blue;}
 
-<<<<<<< HEAD
 .lightbox-button {
   z-index: 10;
-}
-=======
+}*/
+
 ul {
   list-style-type: none;
 }
@@ -68,5 +66,3 @@ a {
   text-decoration: none;
  
 }
-
->>>>>>> d872854a0b445291dd6a4764ad98942c6ae9d3d3

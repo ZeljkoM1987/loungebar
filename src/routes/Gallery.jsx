@@ -11,6 +11,8 @@ export const Gallery = () => {
     useEffect(()=>{
         window.scrollTo(0, 0);
       },[])
+
+      const [index, setIndex] = useState(-1);
       return (
         <>
     

@@ -1,120 +1,98 @@
 export const slides = [
 
     {
-        title: "Piza",
-        src: "../../assets/1.jpg",
-        description: "dsdadas",
-        price: "15KM"
+        title: "Interijer",
+        src: "/101.jpg"
     },
     {
-        title: "Omlet",
-        src: "../../assets/2.jpg",
-        description: "dsdadas",
-        price: "8KM"
+        title: "Interijer",
+        src: "/102.jpg"
     },
     {
-        title: "Makarone",
-        src: "../../assets/3.jpg",
-        description: "fdssds",
-        price: "7KM"
+        title: "Interijer",
+        src: "/113.jpg"
     },
     {
-        title: "Piza",
-        src: "../../assets/4.jpg",
-        description: "dsdadas",
-        price: "15KM"
+        title: "Interijer",
+        src: "/114.jpg"
+
     },
 
     {
-        title: "Piza",
-        src: "../../assets/5.jpg",
-        description: "dsdadas",
-        price: "15KM"
-    },
-    {
-        title: "Piza",
-        src: "../../assets/6.jpg",
-        description: "dsdadas",
-        price: "15KM"
-    },
-    {
-        title: "Piza",
-        src: "../../assets/7.jpg",
-        description: "dsdadas",
-        price: "15KM"
+        title: "Interijer",
+        src: "/103.jpg"
 
     },
     {
-        title: "Piza",
-        src: "../../assets/8.jpg",
-        description: "dsdadas",
-        price: "15KM"
+        title: "Interijer",
+        src: "/106.jpg"
+    },
+    {
+        title: "Interijer",
+        src: "/109.jpg"
+
+    },
+    {
+        title: "Interijer",
+        src: "/100.jpg"
 
     },
 
-{
-        title: "Piza",
-        src: "../../assets/9.jpg",
-        description: "dsdadas",
-        price: "15KM"
+    {
+        title: "Interijer",
+        src: "/108.jpg"
     },
 
-{
-        title: "Piza",
-        src: "../../assets/10.jpg",
-        description: "dsdadas",
-        price: "15KM"
+    {
+        title: "Interijer",
+        src: "/112.jpg"
+
 
     },
-{
-        title: "Piza",
-        src: "../../assets/11.jpg",
-        description: "dsdadas",
-        price: "15KM"
+    {
+        title: "Igraonica",
+        src: "/145.jpg"
 
     },
-{
-        title: "Piza",
-        src: "../../assets/12.jpg",
-        description: "dsdadas",
-        price: "15KM"
+    {
+        title: "Igraonica",
+        src: "/141.jpg"
 
     },
 
-{
-        title: "Piza",
-        src: "../../assets/13.jpg",
-        description: "dsdadas",
-        price: "15KM"
+    {
+        title: "Igraonica",
+        src: "/140.jpg"
 
     },
 
-{
-        title: "Piza",
-        src: "../../assets/14.jpg",
-        description: "dsdadas",
-        price: "15KM"
+    {
+        title: "Igraonica",
+        src: "/144.jpg"
 
     },
-{
-        title: "Piza",
-        src: "../../assets/37.jpg",
-        description: "dsdadas",
-        price: "15KM"
+    {
+        title: "Igraonica",
+        src: "/142.jpg"
 
     },
 
-{
-        title: "Piza",
-        src: "../../assets/50.jpg",
-        description: "dsdadas",
-        price: "15KM"
+    {
+        title: "Igraonica",
+        src: "/143.jpg"
     },
-{
-        title: "Piza",
-        src: "../../assets/50.jpg",
-        description: "dsdadas",
-        price: "15KM"
+    {
+        title: "Praona",
+        src: "/152.jpg"
+    },
+
+    {
+        title: "Praona",
+        src: "/151.jpg"
+    },
+    {
+        title: "Praona",
+        src: "/150.jpg"
     },
 
 ]

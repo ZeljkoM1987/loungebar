@@ -30,7 +30,7 @@ export const Navbar2 = () => {
         ></img>
         {/*<i className="fa-sharp fa-solid fa-utensils logo2"></i>*/}
         <div>
-          <h2>Lounge Bar</h2>
+          <h2>lounge caffe</h2>
           <h1>Centar</h1>
         </div>
       </div>

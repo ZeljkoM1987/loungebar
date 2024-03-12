@@ -58,7 +58,7 @@ export const  Hero = () => {
          <SwiperSlide className="swipperslide">
             <img src={ImgHero1} alt="heroimg" />
             <div className="text-hero">
-            <h1>Lounge Bar Centar</h1>
+            <h1>lounge caffe Centar</h1>
             <h2>Dobro došli!</h2>
             
             </div>
@@ -67,14 +67,14 @@ export const  Hero = () => {
         <SwiperSlide>
         <img src={ImgHero2} alt="heroimg" />
         <div className="text-hero">
-            <h1>Lounge Bar Centar</h1>
+            <h1>lounge caffe Centar</h1>
             <h2>Vaša Gastronomska Oaza</h2>
             </div>
         </SwiperSlide>
         <SwiperSlide>
         <img src={ImgHero3} alt="heroimg" />
         <div className="text-hero">
-            <h1>Lounge Bar Centar</h1>
+            <h1>lounge caffe Centar</h1>
             <h2>Otkrijte Svet Savršenih Ukusa</h2>
         </div>
         </SwiperSlide>
