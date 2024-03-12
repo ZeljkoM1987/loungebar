@@ -29,7 +29,7 @@ export const Footer = () => {
 
                     <h2>Kontakt</h2>
                     <h4>Telefon: 066954994</h4>
-                    <h4>email: loungebarcentear@yahoo.com </h4>
+                    <h4>email: loungebarcentar@yahoo.com </h4>
                    
 
                 </div>

@@ -27,13 +27,11 @@ export const OurStory = () => {
 
                         <img src={imglogo} alt="logo" />
 
-                        <p>Naša priča počinje sa željom za gostoprimstvom i ljubavlju prema kulinarskoj umetnosti.
-                            Svaki detalj smo pažljivo birali kako bi stvorili prijatan i udoban ambijent za naše goste.
-                            Pored elegantne unutrašnjosti objekta, našim gostima je na raspolaganju je zimska i ljetna bašta.
-                            Bez obzira da li ste došli da proslavite posebnu priliku ili jednostavno želite da se prepustite čarima večeri, naš lounge bar vas poziva da se pridružite u stvaranju nezaboravnih trenutaka.
-                            Želja nam je da nam dođete kao gost, a a odete kao prijatelj...
-
-                            ...jer ovo je naša priča, ali vi ste ti koji je čine posebnom.
+                        <p>Naša priča počinje 2016. godine, kada smo vođeni ljubavlju prema kulinarskoj umetnosti i gostoprimstvu, otvorili vrata našeg lounge caffe-a. 
+Želja nam je bila da stvorimo prostor u koji ćete nam dolaziti kao gosti, a vraćati nam se kao prijatelji.
+Svaki detalj smo pažljivo birali kako bi stvorili prijatan i udoban ambijent za naše goste.
+Pored elegantne unutrašnjosti objekta, našim gostima su na raspolaganju zimska i ljetna bašta. Bez obzira da li ste došli da proslavite posebnu priliku ili jednostavno želite da se prepustite čarima večeri, naš lounge bar vas poziva da se pridružite u stvaranju nezaboravnih trenutaka.
+Ovo je naša priča, ali vi ste ti koji je čine posebnom.
                         </p>
 
                     </div>

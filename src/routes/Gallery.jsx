@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import { HeroOther } from "../components/HeroOther";
-import AboutImg from '../../assets/26.jpg';
+import GalImg from "/201.jpg";
 import { Images } from "../components/Images.jsx";
 import { slides } from "../components/data.jsx"
 
@@ -18,7 +18,7 @@ export const Gallery = () => {
     
     
           <HeroOther
-            heroImg={AboutImg}
+            heroImg={GalImg}
             title="galerija" />
     
           

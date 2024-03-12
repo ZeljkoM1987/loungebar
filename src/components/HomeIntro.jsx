@@ -26,7 +26,7 @@ export const HomeIntro = () => {
     <>
       <div className="intro-text">
         <h2>
-          Dobrodošli u naš lounge bar, gde se svaki zalogaj pretvara u nezaboravno
+          Dobrodošli u naš lounge caffe, gde se svaki zalogaj pretvara u nezaboravno
           iskustvo, a svaka večer postaje posebna priča.
         </h2>
       </div>
@@ -35,8 +35,8 @@ export const HomeIntro = () => {
           <CardTest
           
             image={TripImg1}
-            title="Lounge Bar"
-            text="Prijatan ambijent, neodoljiva gastronomska ponuda i širok izbor pića, samo su dio naše ponude. Lounge bar je savršeno mjesto za sve prilike, bilo da dolazite na druženje sa prijateljima, romantičnu večeru, porodični ručak ili poslovni sastanak. "
+            title="Lounge Caffe"
+            text="Prijatan ambijent, neodoljiva gastronomska ponuda i širok izbor pića, samo su dio onog što vas očekuje. Lounge caffe je savršeno mjesto za sve prilike, bilo da dolazite na druženje sa prijateljima, romantičnu večeru, porodični ručak ili poslovni sastanak. "
           />
           <CardTest
           
