@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "./ContactStyless.css";
+import "../components/ContactStyless.css";
 
 import { HeroOther } from "../components/HeroOther";
 import GalImg from "/contact.jpg";
