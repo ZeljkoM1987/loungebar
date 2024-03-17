@@ -19,7 +19,7 @@ export const Gallery = () => {
     
           <HeroOther
             heroImg={GalImg}
-            title="galerija" />
+            title="Galerija" />
     
           
     

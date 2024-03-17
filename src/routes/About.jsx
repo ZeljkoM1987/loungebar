@@ -14,7 +14,7 @@ export const About = () => {
 
 <HeroOther
         heroImg= {AboutImg} 
-        title = "o nama"/>
+        title = "O nama"/>
 <OurStory/>
         </>
         
