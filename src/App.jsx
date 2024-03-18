@@ -14,6 +14,7 @@ import "swiper/css/navigation";
 import { Navbar } from "./components/Navbar";
 import { Navbar2 } from "./components/Navbar2";
 import { Footer } from "./components/Footer";
+import { Footer2 } from "./components/Footer2";
 
 function App() {
  
@@ -28,7 +29,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
-        <Footer />
+        <Footer2 />
       </LoungeProvider>
     </>
   );
