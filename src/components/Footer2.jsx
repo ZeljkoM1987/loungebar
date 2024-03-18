@@ -184,7 +184,7 @@ export const Footer2 = () => {
 
       <section className="foot">
         <div className="footInner">
-          <p>Copyright 2023 lounge bar Centar. All Rights Reserved By Zeljko</p>
+          <p>Copyright {new Date().getFullYear()} lounge bar Centar. All Rights Reserved By Zeljko</p>
           <div>
             <img
               width={188}
