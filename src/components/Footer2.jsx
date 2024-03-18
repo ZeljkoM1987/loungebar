@@ -11,9 +11,14 @@ export const Footer2 = () => {
         <div className="headerInner">
           <div className="third">
             <div className="satnica">
-              <h4><i className="fa-regular fa-clock"></i> Otvoreni Smo</h4>
-              <h5>Ponedeljak do Petak</h5>
-              <p>08:00 - 20:00</p>
+              <h4>
+                <i className="fa-regular fa-clock"></i> Radno vrijeme
+              </h4>
+              <h5>Lounge bar:</h5>
+              <p>Svaki dan: 08h - 20h</p>
+              <h5>Autopraona:</h5>
+              <p>Ponedeljak - Subota: 08h - 20h</p>
+              <p>Nedelja: 08h-16h</p>
             </div>
           </div>
           <div className="second">
@@ -27,9 +32,9 @@ export const Footer2 = () => {
                 }}
               ></img>
               <div>
-          <h2>lounge caffe</h2>
-          <h1>Centar</h1>
-        </div>
+                <h2>lounge caffe</h2>
+                <h1>Centar</h1>
+              </div>
             </div>
           </div>
           <div className="first">

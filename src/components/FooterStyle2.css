@@ -136,20 +136,26 @@
   }
   
   .footer .header .headerInner .third .satnica h5 {
-    color: #a3a2a2;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-  }
-  
-  .footer .header .headerInner .third .satnica p {
     color: #ffffff;
     font-size: 18px;
     font-weight: 500;
-    text-align: center;
+   
+  }
+  
+  .footer .header .headerInner .third .satnica p {
+    color: #a3a2a2;
+    font-size: 18px;
+    font-weight: 500;
+    
   }
 
- 
+  @media (max-width: 767px) {
+    .footer .header .headerInner .third .satnica h4,
+    .footer .header .headerInner .third .satnica h5, 
+    .footer .header .headerInner .third .satnica p{
+      text-align: center;
+    }
+  }
  
   
   .footer .body {
