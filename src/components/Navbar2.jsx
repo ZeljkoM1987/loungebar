@@ -53,7 +53,7 @@ export const Navbar2 = () => {
                 style={{ color: height > 100 ? "black" : "whitesmoke" }}
                 className={({ isActive }) =>
                   isActive ? `${item.cssname} active2` : item.cssname
-                }
+                }     
                 to={item.url}
                 onClick={() => setMenuOpen(false)}
               >
