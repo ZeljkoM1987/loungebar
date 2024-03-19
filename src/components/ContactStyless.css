@@ -171,7 +171,7 @@
 .form-wrapper{
     position: relative;
     width: 100%;
-    /*background: #19423E;*/
+    background: #19423E;
     background-image: url("./back.jpg");
     color: wheat;
     padding: 1rem !important;
