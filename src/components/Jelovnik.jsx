@@ -792,7 +792,6 @@ export const Jelovnik = [
     },
     {
         title: "Centar plata (za 6-8 osoba)",
-        url: " ",
         text: "4 ćevapa, karađorđeva šnicla, cordon bleu, 2 kranjske, 2 pljeskavice, piletina rolovana u slanini, 4 svinjski file, 4 pileća filea, pek. krompir, lepinje, paradajz, krastavci i salata",
         url: "/menu/plata1.jpg",
         sort: "Meze",

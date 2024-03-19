@@ -4,7 +4,7 @@ import { CardTest } from "./CardTest";
 import TripImg1 from '../../assets/16.jpg';
 import TripImg2 from '/35.jpg';
 import TripImg3 from '../../assets/33.jpg';
-import par from '../../public/113.jpg';
+import par from '/113.jpg';
 import { PreporukaItems } from "./PreporukaItems";
 import { Swiper, SwiperSlide } from "swiper/react";
 import delivery from "../../assets/delivery.svg";
