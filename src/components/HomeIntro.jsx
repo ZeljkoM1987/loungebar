@@ -2,9 +2,9 @@ import "./HomeIntroStyle.css";
 
 import { CardTest } from "./CardTest";
 import TripImg1 from '../../assets/16.jpg';
-import TripImg2 from '../../assets/36.jpg';
+import TripImg2 from '/35.jpg';
 import TripImg3 from '../../assets/33.jpg';
-import par from '../../assets/57.jpg';
+import par from '../../public/113.jpg';
 import { PreporukaItems } from "./PreporukaItems";
 import { Swiper, SwiperSlide } from "swiper/react";
 import delivery from "../../assets/delivery.svg";
@@ -17,7 +17,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+import {  Navigation } from "swiper/modules";
 
 import React from "react";
 
@@ -48,7 +48,7 @@ export const HomeIntro = () => {
         
             image={TripImg2}
             title="Autopraona"
-            text="Bilo da se radi o osnovnom pranju, dubinskom čišćenju enterijera ili detaljnom poliranju, mi smo tu da udovoljimo vašim potrebama."
+            text="Pored lounge caffe-a i dječije igraonice, nudimo vam i usluge autopraone. Dok uživate u ambijente lounge caffe-a, prepustite nam brigu o vašem limenom ljubimcu."
           />
         </div>
         <div className="link">
@@ -84,34 +84,27 @@ export const HomeIntro = () => {
           <h2>Preporuka šefa kuhinje</h2>
         </div>
         <Swiper
-         
-         
-          breakpoints={{
-            // when window width is >= 640px
-            640: {
-              width: 640,
-              slidesPerView: 1,
-              
-            },
-            // when window width is >= 768px
-            768: {
-              width: 768,
-              slidesPerView: 2,
-              spaceBetween: 40,
-            },
-            1024: {
-              width: 1024,
-              slidesPerView: 3,
-              spaceBetween:40,
-            }
-          }}
-          loop={true}
-          navigation={true}
-         
-          modules={[ Navigation]}
-          className="mySwiper"
-          
-        >
+        slidesPerView={1}
+        spaceBetween={10}
+        loop= {true}
+       navigation={true}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        }}
+        modules={[Navigation]}
+        className="mySwiper"
+      >
           {PreporukaItems.map((slide, key) => (
             <SwiperSlide key={key}>
               
