@@ -35,7 +35,7 @@ img {
    object-fit: cover;
    position: relative;
    z-index: -200;
-   filter: brightness(80%);
+   filter: brightness(60%);
 
 }
 

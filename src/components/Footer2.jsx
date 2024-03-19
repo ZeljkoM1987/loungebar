@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import "./FooterStyle2.css";
 import logo from "../logo.svg";
-import visa from "/visa_card.png";
+//import visa from "/visa_card.png";
 
 export const Footer2 = () => {
   return (
@@ -184,8 +184,9 @@ export const Footer2 = () => {
 
       <section className="foot">
         <div className="footInner">
-          <p>Copyright {new Date().getFullYear()} lounge bar Centar. All Rights Reserved By Zeljko</p>
+          <p>Copyright {new Date().getFullYear()} lounge bar Centar. All Rights Reserved</p>
           <div>
+            {/*
             <img
               width={188}
               height={25}
@@ -193,6 +194,7 @@ export const Footer2 = () => {
               alt="visa and master cards"
               loading="lazy"
             />
+            */}
           </div>
         </div>
       </section>

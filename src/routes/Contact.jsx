@@ -88,7 +88,7 @@ export const Contact = () => {
                   >
                     <input type="hidden" name="bot-field" />
                     <input type="hidden" name="form-name" value="contact" />
-                    <div className="form-group name">
+                    <div className="form-group name-inform">
                       <label htmlFor="name">Cijelo Ime</label>
                       <input
                         type="text"

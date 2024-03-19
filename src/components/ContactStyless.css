@@ -171,7 +171,8 @@
 .form-wrapper{
     position: relative;
     width: 100%;
-    background: #19423E;
+    /*background: #19423E;*/
+    background-image: url("../assets/back.jpg");
     color: wheat;
     padding: 1rem !important;
 }
@@ -228,7 +229,7 @@ label{
     margin-bottom: 1rem;
 }
 
-.name,.email, .subject,.message, .btn-wrapper{
+.name-inform,.email, .subject,.message, .btn-wrapper{
     position: relative;
     width: 100%;
     padding-right: 15px;
@@ -237,7 +238,7 @@ label{
 
 
 @media (min-width: 768px){
-.name, .email, .btn-wrapper{
+.name-inform, .email, .btn-wrapper{
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
