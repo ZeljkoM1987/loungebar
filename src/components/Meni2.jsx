@@ -95,7 +95,7 @@ export const Meni2 = () => {
           <option value="Novo">Novo u ponudi</option>
           <option value="Dorucak">Doručak</option>
           <option value="Burger">Burgeri i ćevapi</option>
-          <option value="A la carte">A la carte</option>
+          <option value="carte">A la carte</option>
           <option value="Piza">Pizza</option>
           <option value="SlanePalacinke">Slane Palačinke</option>
           <option value="Meze">Meze i Plate</option>
