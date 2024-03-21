@@ -3,13 +3,13 @@ import { Jelovnik } from "./Jelovnik";
 import "./MeniStyles2.css";
 
 export const Meni2 = () => {
-  const [MenuProducts, setMenuProducts] = useState(Jelovnik);
+  const [MenuProducts, setMenuProducts] = useState(Jelovnik.filter((product) => product.spec === "Novo"));
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [MenuProducts]);
 
-  const [Obrok, setObrok] = useState("Sva jela");
+  const [Obrok, setObrok] = useState("Novo u ponudi");
 
   const filter = (sort) => {
     setMenuProducts(Jelovnik.filter((product) => product.sort === sort));
@@ -28,10 +28,17 @@ export const Meni2 = () => {
     if (event.target.value === "Novo") {
       console.log(event.target);
       filterspec(event.target.value);
-    } else {
+    }
+    
+  else if (event.target.value === "Sva jela") 
+    {
+        setMenuProducts(Jelovnik)
+    }
+    else {
       filter(event.target.value);
       setObrok(event.target.value);
     }
+   
   };
 
   return (
@@ -92,6 +99,7 @@ export const Meni2 = () => {
       </div>
       <div className="dropmenu">
         <select name="drop" id="1" onChange={handleChange}>
+        <option value="Sva jela">Sva jela</option>
           <option value="Novo">Novo u ponudi</option>
           <option value="Dorucak">Doručak</option>
           <option value="Burger">Burgeri i ćevapi</option>

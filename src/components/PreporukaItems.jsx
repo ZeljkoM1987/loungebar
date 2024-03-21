@@ -3,13 +3,6 @@ export const PreporukaItems = [
 
 
     {
-        title: "Rolovana piletina u slanini",
-        url: "/menu/rolovanapiletina1.jpg",
-        text: "pileći file punjen sirom urolovan u hrskavu slaninu",
-        price: "15KM",
-        sort: "Glavno Jelo"
-    },
-    {
         title: "Piletina u pesto genovese sosu",
         url: "/menu/piletinapesto.jpg",
         text: "sa gratiniranim krompirom",
@@ -40,6 +33,13 @@ export const PreporukaItems = [
         price: "15KM",
         sort: "Glavno Jelo"
 
+    },
+    {
+        title: "Rolovana piletina u slanini",
+        url: "/menu/rolovanapiletina1.jpg",
+        text: "pileći file punjen sirom urolovan u hrskavu slaninu",
+        price: "15KM",
+        sort: "Glavno Jelo"
     },
 
     {

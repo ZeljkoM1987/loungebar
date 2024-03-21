@@ -1,5 +1,5 @@
 import ImgStory1 from "../../assets/37.jpg";
-import ImgStory2 from "../../assets/15.jpg";
+import ImgStory2 from "/112.jpg";
 import ImgStory3 from "../../assets/33.jpg";
 import ImgStory4 from "../../assets/34.jpg";
 import ImgStory5 from "../../assets/35.jpg";
@@ -12,7 +12,7 @@ import React from "react";
 import imglogo from "../../assets/heading-var-shap.png";
 import ImgStory9 from "../../assets/57.jpg";
 import ImgStory10 from "../../assets/56.jpg";
-import ImgStory11 from "../../assets/55.jpg";
+import ImgStory11 from "/menu/cartepileciisos.jpg";
 import { Link } from "react-router-dom";
 
 
@@ -30,8 +30,10 @@ export const OurStory = () => {
                         <p>Naša priča počinje 2016. godine, kada smo vođeni ljubavlju prema kulinarskoj umetnosti i gostoprimstvu, otvorili vrata našeg lounge caffe-a. 
 Želja nam je bila da stvorimo prostor u koji ćete nam dolaziti kao gosti, a vraćati nam se kao prijatelji.
 Svaki detalj smo pažljivo birali kako bi stvorili prijatan i udoban ambijent za naše goste.
-Pored elegantne unutrašnjosti objekta, našim gostima su na raspolaganju zimska i ljetna bašta. Bez obzira da li ste došli da proslavite posebnu priliku ili jednostavno želite da se prepustite čarima večeri, naš lounge bar vas poziva da se pridružite u stvaranju nezaboravnih trenutaka.
-Ovo je naša priča, ali vi ste ti koji je čine posebnom.
+Pored unutrašnjosti objekta, gosti se mogu  udobno smjestiti i u zimskoj i ljetnoj bašti. 
+Takođe, našim gostima je na raspolaganju parking koji se nalazi iza i preko puta lounge caffe-a.  
+Bez obzira da li ste došli da proslavite posebnu priliku ili jednostavno želite da se prepustite čarima večeri,
+ naš lounge bar vas poziva da se pridružite u stvaranju nezaboravnih trenutaka.
                         </p>
 
                     </div>
@@ -57,6 +59,15 @@ Ovo je naša priča, ali vi ste ti koji je čine posebnom.
                     <Link className="button-menu" to="/service">Kompletan meni</Link>
                     
                     </div>
+                    <p> Idealan smo izbor za poslovne ručkove, porodične proslave, dječije rođendane i slične vrste događaja. Za više informacija, slobodno nas kontaktirajte.
+                        </p>
+                        <div className="our-story-button">
+
+                    <Link className="button-menu" to="/contact">Kontakt</Link>
+                    
+                    </div>
+                        
+                       
                 </div>
             </div>
            

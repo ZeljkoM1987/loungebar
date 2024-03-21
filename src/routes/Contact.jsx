@@ -43,7 +43,7 @@ export const Contact = () => {
                     <div className="contact-text">
                       <p>
                         <span>Telefon:&nbsp;</span>
-                        <a href="tel://1234567920">+ 387 66954994</a>
+                        <a href="tel:+38766954994">+ 387 66954994</a>
                       </p>
                     </div>
                   </div>
@@ -56,7 +56,7 @@ export const Contact = () => {
                     <div className="contact-text">
                       <p>
                         <span>Email:&nbsp;</span>
-                        <a href="mailto:info@gmail.com">loungebarcentar@yahoo.com </a>
+                        <a href="mailto:loungebarcentar@yahoo.com">loungebarcentar@yahoo.com </a>
                       </p>
                     </div>
                   </div>
