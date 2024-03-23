@@ -23,22 +23,25 @@ export const Meni2 = () => {
   };
 
   const handleChange = (event) => {
-    console.log(event.target);
-
+    
+    console.log (event.target.value)
+    
     if (event.target.value === "Novo") {
-      console.log(event.target);
+      
       filterspec(event.target.value);
     }
     
-  else if (event.target.value === "Sva jela") 
-    {
-        setMenuProducts(Jelovnik)
+
+
+    else if (event.target.value === "true")  {
+     
+    filterposno(event.target.value);
     }
     else {
       filter(event.target.value);
       setObrok(event.target.value);
     }
-   
+    
   };
 
   return (
@@ -73,7 +76,7 @@ export const Meni2 = () => {
           <li onClick={() => filter("Meze") & setObrok("Meze i Plate")}>
             Meze i Plate
           </li>
-          <li onClick={() => filterposno(true) & setObrok("Piza")}>
+          <li onClick={() => filterposno("true") & setObrok("Posni program")}>
             Posni Program
           </li>
           <li onClick={() => filter("Pasta") & setObrok("Njoki i Paste")}>
@@ -92,14 +95,14 @@ export const Meni2 = () => {
           <li onClick={() => filter("Prilozi") & setObrok("Prilozi")}>
             Prilozi
           </li>
-          <li onClick={() => filter("Desert") & setObrok("Deserti")}>
+          <li onClick={() => filter("Dodatak") & setObrok("Dodatak")}>
             Dodatak
           </li>
         </ul>
       </div>
       <div className="dropmenu">
         <select name="drop" id="1" onChange={handleChange}>
-        <option value="Sva jela">Sva jela</option>
+       
           <option value="Novo">Novo u ponudi</option>
           <option value="Dorucak">Doručak</option>
           <option value="Burger">Burgeri i ćevapi</option>
@@ -107,13 +110,15 @@ export const Meni2 = () => {
           <option value="Piza">Pizza</option>
           <option value="SlanePalacinke">Slane Palačinke</option>
           <option value="Meze">Meze i Plate</option>
+          <option value= "true" >Posni Program</option>
           <option value="Pasta">Njoki i Paste</option>
           <option value="Salata">Obrok salate</option>
           <option value="Corbe">Čorbe</option>
           <option value="Salate">Salate Porcije</option>
           <option value="Slatko">Slatki Program</option>
           <option value="Prilozi">Prilozi</option>
-          <option value="Desert">Dodatak</option>
+          <option value="Dodatak">Dodatak</option>
+          
         </select>
       </div>
 

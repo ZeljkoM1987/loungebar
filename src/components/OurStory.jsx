@@ -1,9 +1,9 @@
 import ImgStory1 from "../../assets/37.jpg";
-import ImgStory2 from "/112.jpg";
+import ImgStory2 from "/97.jpg";
 import ImgStory3 from "../../assets/33.jpg";
 import ImgStory4 from "../../assets/34.jpg";
-import ImgStory5 from "../../assets/35.jpg";
-import ImgStory6 from "../../assets/36.jpg";
+import ImgStory5 from "/35.jpg";
+import ImgStory6 from "/150.jpg";
 import ImgStory7 from "../../assets/38.jpg";
 import ImgStory8 from "../../assets/32.jpg";
 import "./OurStoryStyles.css";
@@ -13,6 +13,7 @@ import imglogo from "../../assets/heading-var-shap.png";
 import ImgStory9 from "../../assets/57.jpg";
 import ImgStory10 from "../../assets/56.jpg";
 import ImgStory11 from "/menu/cartepileciisos.jpg";
+
 import { Link } from "react-router-dom";
 
 
@@ -43,10 +44,11 @@ Bez obzira da li ste došli da proslavite posebnu priliku ili jednostavno želit
                     <div className="nasa-prica">
                         <div className="our-story-img">
 
-                            <img src={ImgStory10} alt="logo" />
+                        <img src={ImgStory2} alt="logo" />
+<img src={ImgStory10} alt="logo" />         
                             <img src={ImgStory11} alt="logo" />
                             <img src={ImgStory1} alt="logo" />
-                            <img src={ImgStory2} alt="logo" />
+                           
                         </div>
 
                         <p>Naš jelovnik je pažljivo osmišljen kako bi zadovoljio raznovrsne ukuse naših gostiju. Od tradicionalnih domaćih specijaliteta do modernih kulinarskih kreacija, svako jelo nosi pečat kvaliteta i pažnje prema detaljima, obećavajući neprocenjivo gastronomsko iskustvo.
@@ -66,12 +68,13 @@ Bez obzira da li ste došli da proslavite posebnu priliku ili jednostavno želit
                     <Link className="button-menu" to="/contact">Kontakt</Link>
                     
                     </div>
+                    
                         
                        
                 </div>
             </div>
            
-           
+          
             
 
             <OurStoryData
@@ -84,7 +87,7 @@ Bez obzira da li ste došli da proslavite posebnu priliku ili jednostavno želit
             <OurStoryData
                 destclass="first-story"
                 title="Autopraona"
-                text="U sklopu lounge bar-a se nalazi i autopraonica. Dok uživate u ambijentu lounge bar-a,prepustite nam brigu o vašem limenom ljubimcu.   Radno vrijeme praonice: 09h-20h."
+                text="U sklopu lounge caffe-a se nalazi i autopraonica. Dok uživate u ambijentu lounge caffe-a, prepustite nam brigu o vašem limenom ljubimcu. Naše usluge (vanjsko, unutrašnje, komplet i dubinsko pranje) će vratiti sjaj vašem automobilu."
                 Img1={ImgStory5}
                 Img2={ImgStory6} />
 

@@ -150,7 +150,7 @@ export const Jelovnik = [
         text: "lignje, zelena salata, balsamico, tost, kukuruz i paradajz",
         spec: "Novo",
         sort: "Salata",
-        posno: true
+        posno: "true",
     },
 
     {
@@ -403,7 +403,8 @@ export const Jelovnik = [
         text: "riblje meso, salata, paradajz i posni sir",
         spec: " ",
         sort: "Burger",
-        posno: true
+        posno: "true",
+
     },
 
     {
@@ -534,7 +535,7 @@ export const Jelovnik = [
         text: "sos, tuna, gljive, po željo posni sir",
         spec: " ",
         sort: "Piza",
-        posno: true
+        posno: "true",
     },
     {
         title: "Vegetariana",
@@ -650,7 +651,7 @@ export const Jelovnik = [
         text: "tuna, paradajz, krastavac, paprika, salata, limun, soja sos, maslinovo ulje",
 
         sort: "Salata",
-        posno: true
+        posno: "true",
     },
     {
         title: "Riblja čorba",
@@ -658,7 +659,7 @@ export const Jelovnik = [
         text: " ",
         spec: " ",
         sort: "Corbe",
-        posno: true
+        posno: "true",
     },
     {
         title: "Teleća čorba",
@@ -803,7 +804,7 @@ export const Jelovnik = [
         url: "/menu/cartepastrmka.jpg",
         text: "Prilog: povrće, pekarski krompir ili blitva sa krompirom",
         sort: "carte",
-        posno: true
+        posno: "true",
     },
 
     {
@@ -811,7 +812,7 @@ export const Jelovnik = [
         url: "/menu/burgerriblje.jpg ",
         text: "Prilog: pomfrit ili pekarski krompir",
         sort: "Burger",
-        posno: true
+        posno: "true",
     },
     {
         title: "Centar palačinke",
@@ -850,7 +851,7 @@ export const Jelovnik = [
         text: " ",
         vel: "",
         sort: "Slatko",
-        posno: true
+        posno: "true"
     },
     {
         title: "Cheescake čokolada",
@@ -956,7 +957,7 @@ export const Jelovnik = [
         posno: false
     },
     {
-        title: "tartar sos",
+        title: "Tartar sos",
         url: " ",
         text: " ",
         sort: "Prilozi",
@@ -970,6 +971,103 @@ export const Jelovnik = [
         sort: "Prilozi",
         posno: false
     },
-
+     {
+        title: "Šunka",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Pileća šunka",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Sir",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Gljive",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Jaje",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Čajna",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Zimska salama",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Kulen",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Suvi vrat",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Slanina",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Ajvar",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Feta",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Pecivo",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
+    {
+        title: "Uštipci",
+        url: " ",
+        text: " ",
+        sort: "Dodatak",
+        posno: false
+    },
 
 ]
