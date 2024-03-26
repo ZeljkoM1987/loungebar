@@ -1,5 +1,5 @@
 .our-story-container {
-    margin: 0;
+   
     color: rgb(0, 0, 0);
     z-index: -100;
     margin: 2rem;
@@ -262,6 +262,9 @@ padding-right: 20px;
     padding-left: 20px;
     padding-right: 20px;
 
+}
+..our-story-container {
+    margin: 0;
 }
 
 }
