@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 import {HeroOther} from '../components/HeroOther';
 import AboutImg from '../../assets/26.jpg';
-import { OurStory } from "../components/OurStory";
+import { OurStory22 } from "../components/OurStory22";
 
 
 export const About = () => {
@@ -15,7 +15,7 @@ export const About = () => {
 <HeroOther
         heroImg= {AboutImg} 
         title = "O nama"/>
-<OurStory/>
+<OurStory22/>
         </>
         
     )

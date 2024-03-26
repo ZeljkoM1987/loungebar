@@ -15,7 +15,7 @@ export const Contact = () => {
       <div className="container">
         <div className="inner-container">
           <div className="text-container">
-            <h2>Ostanite u kontaktu. Kako do nas?</h2>
+            <h2> Kako do nas?</h2>
           </div>
         </div>
         <div className="inner-container">
@@ -61,23 +61,12 @@ export const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div className="contact-icon-wrapper">
-                  <div className="inner-contact-icon">
-                    <div className="contact-icon">
-                      <span className="fa fa-globe"></span>
-                    </div>
-                    <div className="contact-text">
-                      <p>
-                        <span>Website:&nbsp;</span>
-                        <a href="#">www.loungebarcentar.com</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+               
               </div>
               <div className="form-container">
                 <div className="form-wrapper">
-                  <h3>Ispunite formu. Veoma je lako.</h3>
+                  <h3>Pišite nam. </h3>
+                  <p>Potrudićemo se da odgovor dobijete u najskorijem roku.</p>
                   <form
                     className="contact-form"
                     name="contact"

@@ -75,10 +75,16 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    justify-content: center;
     margin-right: -15px;
     margin-left: -15px;
     margin-bottom: 3rem !important;
+}
+
+@media (max-width: 768px){
+    .icons-container {
+    flex-direction: column;
+    }
 }
 
 .contact-icon-wrapper{
@@ -177,9 +183,18 @@
     padding: 1rem !important;
 }
 .form-wrapper h3{
+    margin-bottom: 0.5rem !important;
+    font-family: Great Vibes;
+    font-size: 1.5rem;
+
+    
+}
+
+.form-wrapper p{
     margin-bottom: 1.5rem !important;
     font-family: Great Vibes;
-    font-size: 2.1rem;
+    font-size: 1.25rem;
+    font-weight: 400;
     
 }
 
@@ -192,8 +207,14 @@
     padding: 2rem !important;
 }
 .form-wrapper h3{
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     letter-spacing: 2px;
+}
+
+.form-wrapper p{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 }
 

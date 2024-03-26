@@ -1,0 +1,268 @@
+.our-story-container {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    z-index: -100;
+    margin: 2rem;
+    
+}
+
+.our-story-container h2 {
+    font-family: Great Vibes;
+    font-size: 3rem;
+
+}
+
+.our-story-container p {
+    font-family: Roboto Slab;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.our-story-container img {
+    filter: brightness(80%);
+    z-index: 0;
+}
+
+.ourstory-intro {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+
+}
+
+.ourstory-intro-reverse {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+}
+
+.ourstory-intro-text {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.ourstory-intro-text-reverse {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  margin: 0;
+    background-image: url('../../assets/back.jpg');
+    color: wheat;
+}
+
+.ourstory-intro-text img {
+    height: 15px;
+    max-width: 120px;
+    box-shadow: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+
+}
+
+.our-story-intro-picture {
+    width: 50%;
+
+    object-position: bottom;
+
+}
+
+.our-story-intro-picture img {
+    width: 100%;
+
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.our-story-button {
+    
+    z-index: 1;
+
+}
+
+.button-menu {
+    width: 188px;
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    background: transparent;
+    border-radius: 100px;
+    border: 3px solid black;
+    color: black;
+    padding: 5px 20px 5px 20px;
+    font-size: 1rem;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+    margin-top: 14px;
+}
+
+.button-menu:hover {
+    color: black;
+    background-color: wheat;
+}
+
+.button-menu-reverse {
+    width: 188px;
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    background: transparent;
+    border-radius: 100px;
+    border: 3px solid wheat;
+    color: wheat;
+    padding: 5px 20px 5px 20px;
+    font-size: 1rem;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+    margin-top: 14px;
+}
+
+.button-menu-reverse:hover {
+    color: black;
+    background-color: wheat;
+}
+
+.our-story-intro-picture1 {
+display: inline-flex;
+flex-wrap: wrap;
+max-width: 50%;
+justify-content: space-between;
+  
+   
+}
+.our-story-intro-picture1 img {
+width: 49%;
+max-height: 48%;
+}
+
+.story-org {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.story-org-text {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.story-org-img  {
+    max-width: 50%;
+}
+.story-org-img img {
+
+    height: 400px;
+ width: 100%;
+}
+
+.our-story-intro-picture2 {
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-between;
+}
+.our-story-intro-picture2 img {
+max-width: 49%;
+height: 400px;
+
+}
+
+@media screen and (max-width:850px) {
+
+.our-story-container h2 {
+    font-size: 2rem;
+}
+.our-story-container p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.ourstory-intro {
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: auto;
+}
+.ourstory-intro-text {
+    width: 100%;
+  padding: 10px;
+}
+.our-story-intro-picture {
+width: 100%;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.ourstory-intro-reverse {
+    flex-direction: column-reverse;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: auto;
+    background-image: url('../../assets/back.jpg');
+}
+.ourstory-intro-text-reverse {
+    width: 100%;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.our-story-intro-picture2 {
+    width: 100%;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+}
+.our-story-intro-picture1 {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    max-width: 100%;
+}
+.our-story-intro-picture1 img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.our-story-intro-picture2 img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    margin-bottom: 20px;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+}
+
