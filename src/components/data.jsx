@@ -1,5 +1,13 @@
 export const slides = [
-
+    {
+        title: "Interijer",
+        src: "/6.jpg"
+    },
+    {
+        title: "Interijer",
+        src: "/3.jpg"
+    },
+   
     {
         title: "Interijer",
         src: "/101.jpg"
@@ -12,15 +20,56 @@ export const slides = [
         title: "Interijer",
         src: "/113.jpg"
     },
+  
+ 
+    {
+        title: "Interijer",
+        src: "/26.jpg"
+    },
     {
         title: "Interijer",
         src: "/114.jpg"
+
+    },
+    {
+        title: "Interijer",
+        src: "/97.jpg"
+
+    },
+    {
+        title: "Interijer",
+        src: "/112.jpg"
 
     },
 
     {
         title: "Interijer",
         src: "/103.jpg"
+
+    },
+    {
+        title: "Interijer",
+        src: "/22.jpg"
+
+    },
+    {
+        title: "Interijer",
+        src: "/12.jpg"
+
+    },
+    {
+        title: "Interijer",
+        src: "/5.jpg"
+
+    },
+    {
+        title: "Interijer",
+        src: "/51.jpg"
+
+    },
+    {
+        title: "Interijer",
+        src: "/23.jpg"
 
     },
     {
@@ -35,18 +84,6 @@ export const slides = [
     {
         title: "Interijer",
         src: "/100.jpg"
-
-    },
-
-    {
-        title: "Interijer",
-        src: "/108.jpg"
-    },
-
-    {
-        title: "Interijer",
-        src: "/112.jpg"
-
 
     },
     {
@@ -93,6 +130,10 @@ export const slides = [
     {
         title: "Praona",
         src: "/150.jpg"
+    },
+    {
+        title: "Praona",
+        src: "/21.jpg"
     },
 
 ]

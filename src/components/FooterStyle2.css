@@ -24,6 +24,15 @@
    
 }
   }
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  color: #a3a2a2;
+  margin-left: 1rem;
+}
   
   .footer .header .headerInner .first,
   .footer .header .headerInner .second,
@@ -176,6 +185,7 @@
     position: relative;
     flex-wrap: wrap;
     max-width: 1300px;
+    justify-content: space-between;
   }
   @media (min-width: 768px) {
     .footer .body .bodyInner {

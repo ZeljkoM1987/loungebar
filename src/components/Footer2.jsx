@@ -1,8 +1,8 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./FooterStyle2.css";
 import logo from "../logo.svg";
-//import visa from "/visa_card.png";
+
 
 export const Footer2 = () => {
   return (
@@ -14,8 +14,8 @@ export const Footer2 = () => {
               <h4>
                 <i className="fa-regular fa-clock"></i> Radno vrijeme
               </h4>
-              <h5>Lounge bar:</h5>
-              <p>Svaki dan: 08h - 20h</p>
+              <h5>Lounge caffe:</h5>
+              <p>Svaki dan: 06h - 24h</p>
               <h5>Autopraona:</h5>
               <p>Ponedeljak - Subota: 08h - 20h</p>
               <p>Nedelja: 08h-16h</p>
@@ -106,27 +106,27 @@ export const Footer2 = () => {
             <ul>
               <li>
                 <span className="fa-solid fa-chevron-right icon"></span>
-                <p>POČETNA</p>
+                <Link to="/home" className="footer-link">POČETNA</Link>
               </li>
               <li>
                 <i className="fa-solid fa-chevron-right icon"></i>
-                <p>O NAMA</p>
+                <Link to="/about" className="footer-link">O NAMA</Link>
               </li>
               <li>
                 <i className="fa-solid fa-chevron-right icon"></i>
-                <p>MENI</p>
+                <Link to="/service" className="footer-link">MENI</Link>
               </li>
               <li>
                 <i className="fa-solid fa-chevron-right icon"></i>
-                <p>GALERIJA</p>
+               <Link to="/gallery" className="footer-link">GALERIJA</Link>
               </li>
               <li>
                 <i className="fa-solid fa-chevron-right icon"></i>
-                <p>KONTAKT</p>
+                <Link to="/contact " className="footer-link">KONTAKT</Link>
               </li>
             </ul>
           </div>
-          <div className="column important">
+         {/* <div className="column important">
             <div>
               <div className="footer-title">
                 <h4>Meni Kategorija</h4>
@@ -157,7 +157,7 @@ export const Footer2 = () => {
                 <p>DESERTI</p>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="column post">
             <div>
               <div className="footer-title">
