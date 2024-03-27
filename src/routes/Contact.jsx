@@ -78,7 +78,7 @@ export const Contact = () => {
                     <input type="hidden" name="bot-field" />
                     <input type="hidden" name="form-name" value="contact" />
                     <div className="form-group name-inform">
-                      <label htmlFor="name">Cijelo Ime</label>
+                      <label htmlFor="name">Vaše ime</label>
                       <input
                         type="text"
                         name="name"
@@ -98,11 +98,11 @@ export const Contact = () => {
                       ></input>
                     </div>
                     <div className="form-group subject">
-                      <label htmlFor="subject">Subjekat</label>
+                      <label htmlFor="subject">Naslov</label>
                       <input
                         type="text"
                         name="subject"
-                        placeholder="Subjekat"
+                        placeholder="Naslov"
                         className="form-control"
                       ></input>
                     </div>
