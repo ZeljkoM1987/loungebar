@@ -1,7 +1,7 @@
 export const Jelovnik = [
     {
         title: "Cordon Bleu",
-        url: " ",
+        url: " /menu/cartecordon1.jpg",
         text: "pileće meso, suvi vrat, sir, tartar sos., prilog: povrće/pomfrit/pekarski krompir",
         spec: " ",
         sort: "carte",
@@ -17,7 +17,7 @@ export const Jelovnik = [
     },
     {
         title: "Chicken Nuggets",
-        url: " ",
+        url: " /menu/cartenuggets.jpg",
         text: "pohovani komadi piletine, sos kečap, prilog:pomfrit/pekarski krompir",
         spec: " ",
         sort: "carte",
@@ -25,7 +25,7 @@ export const Jelovnik = [
     },
     {
         title: "Pohovana piletina",
-        url: " ",
+        url: "/menu/cartepohovana.jpg",
         text: "pohovana piletina, tartar sos, prilog: povrće/pomfrit/pekarski krompir",
         spec: " ",
         sort: "carte",
@@ -174,7 +174,7 @@ export const Jelovnik = [
 
     {
         title: "Punjena piletina u šampinjon sosu",
-        url: "/menu/novo6.jpg",
+        url: "/menu/novo4.jpg",
         text: "sa gratiniranim krompirom",
         spec: "Novo",
         sort: "carte",
@@ -183,7 +183,7 @@ export const Jelovnik = [
 
     {
         title: "Piletina u curry sosu",
-        url: "/menu/novo4.jpg",
+        url: "/menu/novo6.jpg",
         text: "sa gratiniranim krompirom",
         spec: "Novo",
         sort: "carte",

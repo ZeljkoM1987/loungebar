@@ -12,7 +12,7 @@ export const PreporukaItems = [
     },
     {
         title: "Punjena piletina u šampinjon sosu",
-        url: "/menu/novo6.jpg",
+        url: "/menu/novo4.jpg",
         text: "sa gratiniranim krompirom",
         spec: "Novo",
         sort: "carte",
