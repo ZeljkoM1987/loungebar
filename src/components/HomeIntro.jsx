@@ -138,6 +138,11 @@ export const HomeIntro = () => {
         <a className="button" href="tel:066954994"><i className="fa-solid fa-phone"></i> 066954994</a>
         </div>
       </div>
+      {/* <div className="banner-gr">
+        <h2>aaa</h2>
+        
+      </div>*/ }
+
     </>
   );
 };

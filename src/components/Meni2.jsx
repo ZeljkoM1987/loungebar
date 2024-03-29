@@ -101,6 +101,7 @@ export const Meni2 = () => {
         </ul>
       </div>
       <div className="dropmenu">
+        
         <select name="drop" id="1" onChange={handleChange}>
        
           <option value="Novo">Novo u ponudi</option>
@@ -120,6 +121,7 @@ export const Meni2 = () => {
           <option value="Dodatak">Dodatak</option>
           
         </select>
+        
       </div>
 
       <div className="list">

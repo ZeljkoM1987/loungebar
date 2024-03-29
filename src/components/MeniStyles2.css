@@ -224,6 +224,7 @@ border-radius: 20px;
 
 .products {
     flex-direction: column;
+    position: relative;
 }
 
 .title {
@@ -238,6 +239,26 @@ border-radius: 20px;
         width: 100%;
         text-align: center;
         background-color: black;
+        
+    }
+    .select-arrow-zone {
+        display: none;
+    }
+    *::after {
+        box-sizing: inherit;
+    }
+    .dropmenu::after  {
+        content: ' ';
+        display: block;
+        height: 1rem;
+        width: 1rem;
+        border-right: 0.3rem solid black;
+        border-bottom: 0.3rem solid black;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 1rem;
+        right: 2.5rem;
+    
     }
 
     .list-desktop {
@@ -291,19 +312,26 @@ border-radius: 20px;
     .product-img {
         width: 100%;
     }
-select {
-    width:220px;
-    height:40px;
+.dropmenu select {
+    width:90%;
+    height: 60px;
     color:black;
     text-align: center;
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.75rem;
     background-color: rgb(255, 255, 255);
     margin-bottom: 1.25rem;
     border-radius: 12px;
-    border:3px solid wheat;
+    letter-spacing: 2px;
     
+    appearance: none;
+        -webkit-appearance: none; 
+    -moz-appearance: none; 
 }
+
+
+
+
 
 .product :hover {
     transform: none;
