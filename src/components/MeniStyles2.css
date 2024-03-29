@@ -323,7 +323,8 @@ border-radius: 20px;
     margin-bottom: 1.25rem;
     border-radius: 28px;
     letter-spacing: 2px;
-    padding: auto;
+    padding-left:3px;
+    padding-right:3px;
     
     appearance: none;
         -webkit-appearance: none; 
