@@ -256,7 +256,7 @@ border-radius: 20px;
         border-bottom: 0.3rem solid black;
         transform: rotate(45deg);
         position: absolute;
-        top: 1rem;
+        top: 0.8rem;
         right: 2.5rem;
     
     }
@@ -314,15 +314,16 @@ border-radius: 20px;
     }
 .dropmenu select {
     width:90%;
-    height: 60px;
+    
     color:black;
     text-align: center;
     font-weight: 500;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     background-color: rgb(255, 255, 255);
     margin-bottom: 1.25rem;
-    border-radius: 12px;
+    border-radius: 28px;
     letter-spacing: 2px;
+    padding: auto;
     
     appearance: none;
         -webkit-appearance: none; 
