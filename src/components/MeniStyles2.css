@@ -441,8 +441,8 @@ border-radius: 20px;
         }
     
         .product-img {
-            width: 400px;
-            height: 288px;
+            width: 320px;
+            height: 224px;
             object-fit: cover;
         }
     .dropmenu select {
