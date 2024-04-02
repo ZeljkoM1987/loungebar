@@ -42,7 +42,7 @@ export const Jelovnik = [
 
     {
         title: "Piletina u šampinjon sosu",
-        url: "/menu/cartesampinjon.jpg",
+        url: "/menu/cartesampinjon1.jpg",
         text: "piletina, gljive, vrhnje, soja sos, prilog:pomfrit/pekarski krompir",
         spec: " ",
         sort: "carte",
