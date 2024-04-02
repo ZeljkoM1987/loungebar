@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./FooterStyle2.css";
-import logo from "/webnt2.png";
+import logo from "/nt1.png";
 
 
 export const Footer2 = () => {
