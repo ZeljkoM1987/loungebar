@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./FooterStyle2.css";
-import logo from "../logo.svg";
+import logo from "/webnt2.png";
 
 
 export const Footer2 = () => {
@@ -26,15 +26,9 @@ export const Footer2 = () => {
               <img
                 src={logo}
                 alt="centar logo"
-                style={{
-                  filter:
-                    "brightness(0) saturate(100%) invert(84%) sepia(24%) saturate(381%) hue-rotate(352deg) brightness(104%) contrast(92%)",
-                }}
+                
               ></img>
-              <div>
-                <h2>lounge caffe</h2>
-                <h1>Centar</h1>
-              </div>
+              
             </div>
           </div>
           <div className="first">
@@ -118,7 +112,7 @@ export const Footer2 = () => {
               </li>
               <li>
                 <i className="fa-solid fa-chevron-right icon"></i>
-               <Link to="/gallery" className="footer-link">GALERIJA</Link>
+                <Link to="/gallery" className="footer-link">GALERIJA</Link>
               </li>
               <li>
                 <i className="fa-solid fa-chevron-right icon"></i>
@@ -126,7 +120,7 @@ export const Footer2 = () => {
               </li>
             </ul>
           </div>
-         {/* <div className="column important">
+          {/* <div className="column important">
             <div>
               <div className="footer-title">
                 <h4>Meni Kategorija</h4>

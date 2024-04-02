@@ -47,7 +47,7 @@ export const Meni2 = () => {
   return (
     <div className="products">
       <div className="mobile-title">
-      <h2>Izbor kategorije</h2>
+      <h2>Izbor kategorije:</h2>
       </div>
       <div className="left-izbor">
         <div className="left-izbor-title">
