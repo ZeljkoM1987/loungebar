@@ -8,6 +8,9 @@
     justify-content: center;
     width: 100%;
 }
+.mobile-title {
+    display: none;
+}
 
 .dropmenu {
     display: none;
@@ -227,6 +230,17 @@ border-radius: 20px;
     flex-direction: column;
     position: relative;
 }
+.mobile-title {
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.mobile-title h2 {
+    font-size: 1.75rem;
+    letter-spacing: 4px;
+    color: wheat;
+}
 
 .title {
     display: none;
@@ -242,9 +256,7 @@ border-radius: 20px;
         background-color: black;
         
     }
-    .select-arrow-zone {
-        display: none;
-    }
+   
     *::after {
         box-sizing: inherit;
     }
@@ -257,7 +269,7 @@ border-radius: 20px;
         border-bottom: 0.3rem solid black;
         transform: rotate(45deg);
         position: absolute;
-        top: 0.8rem;
+        top: 3rem;
         right: 2.5rem;
     
     }
@@ -268,7 +280,7 @@ border-radius: 20px;
     }
     .product {
 
-        height: 352px;
+        height: 360px;
         width: 100%;
         flex-direction: column;
         align-items: center;
@@ -307,7 +319,7 @@ border-radius: 20px;
         flex-direction: column;
         justify-content: center;
         padding: 0;
-        max-width: 90%;
+        max-width: 95%;
     }
 
     .product-img {
@@ -374,9 +386,18 @@ border-radius: 20px;
             background-color: black;
             
         }
-        .select-arrow-zone {
-            display: none;
+        .mobile-title {
+            display: block;
+            text-align: center;
+            background-color: black;
+            color: white;
         }
+        .mobile-title h2 {
+            font-size: 1.75rem;
+            letter-spacing: 4px;
+            color: wheat;
+        }
+       
         *::after {
             box-sizing: inherit;
         }
@@ -389,7 +410,7 @@ border-radius: 20px;
             border-bottom: 0.3rem solid black;
             transform: rotate(45deg);
             position: absolute;
-            top: 0.8rem;
+            top: 3rem;
             right: 2.5rem;
         
         }
