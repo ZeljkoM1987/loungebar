@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules';
 import ImgHero1 from "../../assets/18.jpg"
 import ImgHero2 from "../../assets/14.jpg"
-import ImgHero3 from "../../assets/21.jpg"
+import ImgHero3 from "../../assets/22.jpg"
 
 import 'swiper/css';
 import 'swiper/css/pagination';
