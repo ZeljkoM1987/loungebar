@@ -93,7 +93,7 @@ export const Jelovnik = [
 
     {
         title: "Svinjski file na žaru",
-        url: " ",
+        url: "/menu/cartesvinjskifile.jpg",
         text: "svinjsko meso na roštilju, tartar sos, paradajz, krastavci, prilog: povrće/pomfrit/pekarski krompir",
         spec: " ",
         sort: "carte",
@@ -259,7 +259,7 @@ export const Jelovnik = [
 
     {
         title: "Omlet sa šunkom",
-        url: " ",
+        url: " /menu/omletsunka.jpg",
         text: "3 jaja, šunka, sir, pavlaka i paradajz",
         spec: " ",
         sort: "Dorucak",
@@ -267,7 +267,7 @@ export const Jelovnik = [
     },
     {
         title: "Omlet sa gljivama",
-        url: " ",
+        url: " /menu/omletgljive.jpg",
         text: "3 jaja, gljive, sir, pavlaka i paradajz",
         spec: " ",
         sort: "Dorucak",
