@@ -206,7 +206,7 @@ export const Jelovnik = [
         posno: false
     },
     {
-        title: "Jaja na šunkom",
+        title: "Jaja sa šunkom",
         url: " ",
         text: "3 jaja, šunka, sir, pavlaka i paradajz",
         spec: " ",
@@ -214,7 +214,7 @@ export const Jelovnik = [
         posno: false
     },
     {
-        title: "Jaja na slaninom",
+        title: "Jaja sa slaninom",
         url: " ",
         text: "3 jaja, slanina, sir, pavlaka i paradajz",
         spec: " ",
@@ -223,7 +223,7 @@ export const Jelovnik = [
     },
 
     {
-        title: "Jaja na kobasicom",
+        title: "Jaja sa kobasicom",
         url: "/menu/dorucakjajakobaja.jpg",
         text: "3 jaja, kobasica, sir, pavlaka i paradajz",
         spec: " ",
@@ -232,7 +232,7 @@ export const Jelovnik = [
     },
 
     {
-        title: "Jaja na kobasicom punjenom sirom",
+        title: "Jaja sa kobasicom punjenom sirom",
         url: "/menu/jajasakobajom.jpg",
         text: "3 jaja, kobasica, sir, pavlaka i paradajz",
         spec: " ",
