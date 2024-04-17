@@ -3,6 +3,29 @@ import { Jelovnik } from "./Jelovnik";
 import "./MeniStyles2.css";
 
 export const Meni2 = () => {
+
+  const scrollToTop = () =>{ 
+    window.scrollTo({ 
+      top: 0,  
+      behavior: 'smooth'
+      /* you can also use 'auto' behaviour 
+         in place of 'smooth' */
+    }); 
+  };
+  
+  const [visible, setVisible] = useState(false) 
+  
+  const toggleVisible = () => { 
+    const scrolled = document.documentElement.scrollTop; 
+    if (scrolled > 600){ 
+      setVisible(true) 
+    }  
+    else if (scrolled <= 600){ 
+      setVisible(false) 
+    } 
+  }; 
+  window.addEventListener('scroll', toggleVisible); 
+
   const [MenuProducts, setMenuProducts] = useState(Jelovnik.filter((product) => product.spec === "Novo"));
 
   useEffect(() => {
@@ -187,6 +210,13 @@ export const Meni2 = () => {
           );
         })}
       </div>
+      <div className="scroll-top-wrapper " style={{opacity : visible ? '1' : '0'}}>
+	<span className="scroll-top-inner">
+		<i className="fa fa-2x fa-arrow-circle-up" onClick={scrollToTop} 
+     ></i>
+	</span>
+</div>
     </div>
+   
   );
 };

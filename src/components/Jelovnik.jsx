@@ -242,7 +242,7 @@ export const Jelovnik = [
 
     {
         title: "Omlet",
-        url: " ",
+        url: " /menu/omlet.jpg",
         text: "3 jaja, pavlaka i paradajz",
         spec: " ",
         sort: "Dorucak",
@@ -275,7 +275,7 @@ export const Jelovnik = [
     },
     {
         title: "Omlet sa slaninom",
-        url: " ",
+        url: " /menu/omletslanina.jpg ",
         text: "3 jaja, slanina, sir, pavlaka i paradajz",
         spec: " ",
         sort: "Dorucak",
